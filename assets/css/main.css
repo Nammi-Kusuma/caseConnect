@@ -1867,6 +1867,23 @@ section {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+ /* .bg-image {
+  /* The image used */
+  /* background-image: url("../img/carousel.jpg"); */
+
+  /* Add the blur effect */
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  /* height: 100%; */ 
+
+  /* Center and scale the image nicely */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+ /* }   */ 
+
 .hero {
   width: 100%;
   position: relative;
@@ -1912,7 +1929,7 @@ section {
   border-color: rgba(255, 255, 255, 0.5);
 }
 
-.hero .btn-watch-video {
+/* .hero .btn-watch-video {
   font-size: 16px;
   transition: 0.5s;
   margin-left: 25px;
@@ -1930,7 +1947,7 @@ section {
 
 .hero .btn-watch-video:hover i {
   color: #fff;
-}
+} */
 
 @media (max-width: 640px) {
   .hero h2 {
